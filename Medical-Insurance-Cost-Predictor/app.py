@@ -12,7 +12,7 @@ from PIL import Image
 from annotated_text import annotated_text
 
 # loading the  model
-loaded_model = joblib.load('C:/Users/SHUBHAM KUMAR/Desktop/Data Science/Machine Learning Projects/Medical Insurance Cost Prediction/trained_model.sav')
+loaded_model = joblib.load('trained_model.sav')
 
 
 
@@ -32,7 +32,7 @@ def main():
     
     # webpage setup
     
-    img = Image.open('C:/Users/SHUBHAM KUMAR/Desktop/Data Science/Machine Learning Projects/Medical Insurance Cost Prediction/OIP.jpeg')
+    img = Image.open('OIP.jpeg')
     st.set_page_config(page_title = 'Medical Insurance Cost Predictor', page_icon = img )
     st.title('Medical Insurance Cost Predictor')
     
