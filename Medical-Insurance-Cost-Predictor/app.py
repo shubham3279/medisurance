@@ -12,7 +12,7 @@ from PIL import Image
 from annotated_text import annotated_text
 
 # loading the  model
-loaded_model = joblib.load('trained_model.sav')
+loaded_model = joblib.load('https://github.com/shubham3279/Machine-Learning-and-Deep-Learning/blob/main/Medical-Insurance-Cost-Predictor/trained_model.sav')
 
 
 
